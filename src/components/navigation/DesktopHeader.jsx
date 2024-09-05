@@ -47,7 +47,6 @@ export const DesktopHeader = () => {
                     backgroundColor: 'var(--white)',
                     paddingY: '12px',
                     paddingX: '12px',
-                    // paddingX: {xs: '24px', sm: '32px'},
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'space-between',
