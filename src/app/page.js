@@ -14,49 +14,31 @@ import { FormAction } from '@/components/FormAction';
 import { MainInfoBlock } from '@/components/MainInfoBlock';
 import { CoordinatorBlock } from '@/components/CoordinatorBlock';
 import PhoneBlock from '@/components/PhoneBlock';
-import { Suspense } from 'react';
-import { Metrika } from '@/components/Metrika';
-
-export const metadata = {
-    title: 'Платная патронажная служба. Звоните: +7 (499) 719-81-00, 24/7',
-    description: 'Профессиональная платная патронажная служба. Мы доступны 24/7. Звоните нам по телефону +7 (499) 719-81-00 для получения качественной помощи.',
-    keywords: ['платная патронажная служба'],
-    other: {
-        ['yandex-verification']: '86044fbe8b8aeb08',
-    },
-    alternates: {
-        canonical: 'https://patronage.mskdoctor.ru/'
-    }
-};
 
 export default function Home() {
     return (
-        <>
-            <main style={{ position: 'relative' }}>
-                <Banner />
-                <CardsBlock />
-                <PhoneBlock />
-                <MainInfoBlock />
-                <PhoneBlock />
-                <AboutBlock />
-                <WhyWeBlock />
-                <PhoneBlock />
-                <WeRespondBlock />
-                {/*<WhatWeOfferBlock/>*/}
-                <DirectionsOfHospitalizationBlock />
-                <PhoneBlock />
-                <BaseAccordion id="faq" title="Частые вопросы" items={faq} />
-                <CoordinatorBlock />
-                <PartnersBlock />
-                <PhoneBlock />
-                <BaseAccordion id="service" title="Услуги" items={services} />
-                <TextBlock text={text1} />
-                <ContactsBlock />
-                <FormAction />
-            </main>
-            <Suspense>
-                <Metrika />
-            </Suspense>
-        </>
+        <main style={{ position: 'relative' }}>
+            <Banner />
+            <CardsBlock />
+            <PhoneBlock />
+            <MainInfoBlock />
+            <PhoneBlock />
+            <AboutBlock />
+            <WhyWeBlock />
+            <PhoneBlock />
+            <WeRespondBlock />
+            {/*<WhatWeOfferBlock/>*/}
+            <DirectionsOfHospitalizationBlock />
+            <PhoneBlock />
+            <BaseAccordion id="faq" title="Частые вопросы" items={faq} />
+            <CoordinatorBlock />
+            <PartnersBlock />
+            <PhoneBlock />
+            <BaseAccordion id="service" title="Услуги" items={services} />
+            <TextBlock text={text1} />
+            <ContactsBlock />
+            <FormAction />
+        </main>
+
     );
 }
