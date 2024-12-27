@@ -17,9 +17,6 @@ export const metadata = {
     keywords: ['платная патронажная служба'],
     other: {
         ['yandex-verification']: '86044fbe8b8aeb08',
-    },
-    alternates: {
-        canonical: 'https://patronage.mskdoctor.ru/'
     }
 };
 
