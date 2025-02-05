@@ -38,11 +38,11 @@ export const Banner = () => {
                         xs: 'calc(var(--index) * 23)',
                         sm: 'calc(var(--index) * 23)',
                         md: 'calc(var(--index) * 23)',
-                        lg: 'calc(var(--index) * 20)'
+                        lg: 'calc(var(--index) * 23)'
                     },
-                    backgroundImage: `url(/images/images-for-landings/5.webp)`,
+                    backgroundImage: `url(/images/images-for-landings/10.webp)`,
                     backgroundSize: 'cover',
-                    backgroundPosition: 'center'
+                    // backgroundPosition: 'center'
                 }}
             >
                 <Box sx={{
@@ -57,12 +57,12 @@ export const Banner = () => {
                             lineHeight: 1,
                             fontWeight: 600,
                             color: 'var(--main-color)',
-                            textShadow: '0px 4px 4px lightgray',
+                            textShadow: '2px 2px 2px white',
                             marginBottom: {xs: '5px', sm: '10px'}
                         }}>
-                        Собственная<br/>
-                        патронажная<br/>
-                        служба
+                        Патронаж<br/>
+                        пожилых<br/>
+                        людей
                     </Typography>
 
                     {isMobile

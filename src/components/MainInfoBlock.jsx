@@ -23,10 +23,8 @@ export const MainInfoBlock = () => {
             </Typography>
 
             <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 }, marginBottom: '20px' }}>
-                Добро пожаловать в В <Box component="span"
+                Добро пожаловать в <Box component="span"
                                           sx={{ color: 'var(--main-color)', fontWeight: 600 }}>МСК-Групп</Box>!
-                <br />
-                Ваше благополучие и комфорт – наш приоритет номер один!
                 <br />
                 Мы предлагаем профессиональную патронажную поддержку высочайшего уровня. Платный патронаж от <Box
                 component="span"
