@@ -12,7 +12,7 @@ import './globals.css'
 const montserrat = Montserrat({subsets: ['latin', 'cyrillic']})
 
 export const metadata = {
-    title: 'Патронаж Москва',
+    title: 'Патронаж Москва. 8 (499) 719-81-00, 24/7',
     description: 'Профессиональная патронажная служба. +7 (499) 719-81-00. 24/7',
     keywords: ['платная патронажная служба'],
     other: {
