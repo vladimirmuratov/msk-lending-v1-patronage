@@ -30,10 +30,10 @@ export const WhyWeBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography
                             variant="h3"
-                            sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}
+                            sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}
                         >
                             Индивидуальный подход
                         </Typography>
@@ -45,10 +45,10 @@ export const WhyWeBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography
                             variant="h3"
-                            sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}
+                            sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}
                         >
                             Опытные специалисты
                         </Typography>
@@ -62,10 +62,10 @@ export const WhyWeBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography
                             variant="h3"
-                            sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}
+                            sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}
                         >
                             Доверие и конфиденциальность
                         </Typography>
@@ -77,10 +77,10 @@ export const WhyWeBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography
                             variant="h3"
-                            sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}
+                            sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}
                         >
                             Комплексность услуг
                         </Typography>

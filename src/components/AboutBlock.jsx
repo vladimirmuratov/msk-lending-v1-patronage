@@ -28,8 +28,8 @@ export const AboutBlock = () => {
                     marginBottom: '20px'
                 }}
             >
-                <Box component="span" sx={{ color: 'var(--main-color)', fontWeight: 600 }}>Московская Сервисная Компания
-                    (МСК-Групп)</Box> — частная организация, специализирующаяся на платной
+                <Box component="span" sx={{ color: 'var(--red)', fontWeight: 600 }}>Медицинская Сервисная Компания
+                    (МСК)</Box> — частная организация, специализирующаяся на платной
                 госпитализации и патронаже. Наша миссия — обеспечивать высокий уровень медицинской помощи и заботы,
                 предоставляя каждому клиенту комфорт и внимание в самых сложных жизненных ситуациях.
             </Typography>
@@ -44,9 +44,9 @@ export const AboutBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h4"
-                                    sx={{ color: 'var(--main-color)', fontSize: { xs: 20, sm: 22 }, fontWeight: 400 }}>
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 20, sm: 22 }, fontWeight: 400 }}>
                             Организация госпитализации
                         </Typography>
                     </Box>
@@ -60,9 +60,9 @@ export const AboutBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h4"
-                                    sx={{ color: 'var(--main-color)', fontSize: { xs: 20, sm: 22 }, fontWeight: 400 }}>
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 20, sm: 22 }, fontWeight: 400 }}>
                             Патронажный уход
                         </Typography>
                     </Box>
@@ -75,9 +75,9 @@ export const AboutBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h4"
-                                    sx={{ color: 'var(--main-color)', fontSize: { xs: 20, sm: 22 }, fontWeight: 400 }}>
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 20, sm: 22 }, fontWeight: 400 }}>
                             Круглосуточная поддержка
                         </Typography>
                     </Box>

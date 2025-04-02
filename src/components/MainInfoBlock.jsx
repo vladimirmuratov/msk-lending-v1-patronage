@@ -24,14 +24,14 @@ export const MainInfoBlock = () => {
 
             <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 }, marginBottom: '20px' }}>
                 Добро пожаловать в <Box component="span"
-                                          sx={{ color: 'var(--main-color)', fontWeight: 600 }}>МСК-Групп</Box>!
+                                          sx={{ color: 'var(--red)', fontWeight: 600 }}>Медицинскую Сервисную Компанию (МСК)</Box>!
                 <br />
                 Мы предлагаем профессиональную патронажную поддержку высочайшего уровня. Платный патронаж от <Box
                 component="span"
                 sx={{
-                    color: 'var(--main-color)',
+                    color: 'var(--red)',
                     fontWeight: 600
-                }}>МСК-Групп</Box> означает
+                }}>МСК</Box> означает
                 индивидуальный подход, когда каждый клиент получает комплексное внимание, включающее уход, опеку и
                 персонализированные программы поддержки. Особое направление нашей деятельности – это помощь пожилым
                 людям, инвалидам и тем, кто преодолевает последствия болезней или травм в процессе реабилитации.
@@ -39,7 +39,7 @@ export const MainInfoBlock = () => {
 
             <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 }, marginBottom: '20px' }}>
                 Наша <Box component="span"
-                          sx={{ color: 'var(--main-color)', fontWeight: 600 }}>служба патронажа</Box> — это неустанное
+                          sx={{ color: 'var(--red)', fontWeight: 600 }}>служба патронажа</Box> — это неустанное
                 присутствие поддержки и заботы в жизнях вашей семьи. Мы обеспечиваем
                 комплексный уход дома, создавая атмосферу безмятежности и гарантируя безопасность для всех пациентов.
                 Нашими профессионалами осуществляется тщательный контроль здоровья, активное содействие в повседневных
@@ -53,13 +53,13 @@ export const MainInfoBlock = () => {
 
                 <Typography variant="h2"
                             sx={{ color: 'var(--main-color)', fontWeight: 600, fontSize: { xs: '28px', sm: '34px' } }}>Основные
-                    услуги платной патронажной службы:</Typography>
+                    услуги нашей патронажной службы:</Typography>
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h3"
-                                    sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Медицинский
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Медицинский
                             уход</Typography>
                     </Box>
                     <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 } }}>— Контроль приема
@@ -74,9 +74,9 @@ export const MainInfoBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h3"
-                                    sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Гигиенические
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Гигиенические
                             процедуры</Typography>
                     </Box>
                     <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 } }}>— Помощь в умывании, принятии душа
@@ -89,9 +89,9 @@ export const MainInfoBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h3"
-                                    sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Социальная
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Социальная
                             поддержка</Typography>
                     </Box>
                     <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 } }}>— Сопровождение на прогулках, к
@@ -104,9 +104,9 @@ export const MainInfoBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h3"
-                                    sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Реабилитация
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Реабилитация
                             и физическая активность</Typography>
                     </Box>
                     <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 } }}>— Помощь в выполнении
@@ -125,9 +125,9 @@ export const MainInfoBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h3"
-                                    sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Индивидуальный
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Индивидуальный
                             подход</Typography>
                     </Box>
                     <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 } }}>— Услуги подбираются с учетом
@@ -136,9 +136,9 @@ export const MainInfoBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h3"
-                                    sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Квалифицированные
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Квалифицированные
                             специалисты</Typography>
                     </Box>
                     <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 } }}>— В штате работают медсестры,
@@ -147,10 +147,10 @@ export const MainInfoBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h3"
                                     sx={{
-                                        color: 'var(--main-color)',
+                                        color: 'var(--red)',
                                         fontSize: { xs: 22, sm: 24 },
                                         fontWeight: 500
                                     }}>Гибкость</Typography>
@@ -161,9 +161,9 @@ export const MainInfoBlock = () => {
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <CheckIcon sx={{ color: 'var(--main-color)' }} />
+                        <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h3"
-                                    sx={{ color: 'var(--main-color)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Комфорт
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 22, sm: 24 }, fontWeight: 500 }}>Комфорт
                             и безопасность</Typography>
                     </Box>
                     <Typography component="p" sx={{ fontSize: { xs: 18, sm: 20 } }}>— Услуги предоставляются в привычной
@@ -176,7 +176,7 @@ export const MainInfoBlock = () => {
                 высококачественный уход с многолетним опытом и безупречной репутацией.
                 <br/>
                 Платные услуги <Box component="span"
-                                    sx={{ color: 'var(--main-color)', fontWeight: 600 }}>МСК-Групп</Box> не
+                                    sx={{ color: 'var(--red)', fontWeight: 600 }}>МСК</Box> не
                 только обеспечивают профессиональную поддержку, но и воплощают искреннюю заботу — как проявление любви к
                 тем, кто особенно нуждается в поддержке и тепле человеческого участия.
             </Typography>
