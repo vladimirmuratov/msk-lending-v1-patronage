@@ -46,7 +46,7 @@ export const AboutBlock = () => {
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                         <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h4"
-                                    sx={{ color: 'var(--red)', fontSize: { xs: 20, sm: 22 }, fontWeight: 400 }}>
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 20, sm: 22 }, fontWeight: 500 }}>
                             Организация госпитализации
                         </Typography>
                     </Box>
@@ -62,7 +62,7 @@ export const AboutBlock = () => {
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                         <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h4"
-                                    sx={{ color: 'var(--red)', fontSize: { xs: 20, sm: 22 }, fontWeight: 400 }}>
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 20, sm: 22 }, fontWeight: 500 }}>
                             Патронажный уход
                         </Typography>
                     </Box>
@@ -77,7 +77,7 @@ export const AboutBlock = () => {
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                         <CheckIcon sx={{ color: 'var(--red)' }} />
                         <Typography variant="h4"
-                                    sx={{ color: 'var(--red)', fontSize: { xs: 20, sm: 22 }, fontWeight: 400 }}>
+                                    sx={{ color: 'var(--red)', fontSize: { xs: 20, sm: 22 }, fontWeight: 500 }}>
                             Круглосуточная поддержка
                         </Typography>
                     </Box>
