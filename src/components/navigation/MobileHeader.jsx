@@ -1,13 +1,18 @@
-import {Box, IconButton, Link, Typography} from '@mui/material'
-import MenuIcon from '@mui/icons-material/Menu'
-import {ContactBanner} from '@/components/ContactBanner'
-import {phoneNumber} from '@/config'
+import {
+    Box,
+    // IconButton,
+    Link,
+    Typography,
+} from '@mui/material';
+// import MenuIcon from '@mui/icons-material/Menu';
+import { ContactBanner } from '@/components/navigation/ContactBanner';
+import {phoneNumber} from '@/config';
 
-export const MobileHeader = ({toggleDrawer, isMobile}) => {
+export const MobileHeader = ({ toggleDrawer, isMobile }) => {
     return (
-        <Box sx={{position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1}}>
+        <Box sx={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 1 }}>
 
-            <ContactBanner isMobile={isMobile}/>
+            <ContactBanner isMobile={isMobile} />
 
             <Box component="header"
                  sx={{
@@ -34,16 +39,17 @@ export const MobileHeader = ({toggleDrawer, isMobile}) => {
                     >МСК</Typography>
                 </Link>
 
-                {/*<Box>
+                <Box>
                     <Link
                         href={`tel:${phoneNumber}`}
                         sx={{
-                            textDecoration: 'none'
+                            textDecoration: 'underline',
+                            textDecorationColor: 'var(--white)!important',
                         }}
                     >
                         <Typography
                             sx={{
-                                color: 'var(--red)',
+                                color: 'var(--white)',
                                 fontSize: 18,
                                 fontWeight: 600,
                                 textAlign: 'center',
@@ -53,12 +59,12 @@ export const MobileHeader = ({toggleDrawer, isMobile}) => {
                             {phoneNumber}
                         </Typography>
                     </Link>
-                </Box>*/}
+                </Box>
 
-                <IconButton onClick={toggleDrawer(true)}>
+                {/*<IconButton onClick={toggleDrawer(true)}>
                     <MenuIcon sx={{color: '#fff'}}/>
-                </IconButton>
+                </IconButton>*/}
             </Box>
         </Box>
-    )
-}
+    );
+};

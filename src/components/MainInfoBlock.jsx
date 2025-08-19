@@ -17,7 +17,7 @@ export const MainInfoBlock = () => {
                 color: 'var(--main-color)',
                 marginBottom: '20px',
                 fontSize: { xs: '28px', sm: '34px' },
-                fontWeight: 600
+                fontWeight: 500
             }}>
                 Патронажная служба: забота, которая всегда рядом
             </Typography>
@@ -48,11 +48,10 @@ export const MainInfoBlock = () => {
                 <Typography variant="h2"
                             sx={{
                                 color: 'var(--main-color)',
-                                fontWeight: 600,
+                                fontWeight: 500,
                                 fontSize: { xs: '28px', sm: '34px' },
-                                marginBottom: '20px'
-                            }}>Основные
-                    услуги нашей патронажной службы:</Typography>
+                                marginBottom: '20px',
+                            }}>Основные услуги нашей патронажной службы:</Typography>
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -118,9 +117,17 @@ export const MainInfoBlock = () => {
             <Box component="article"
                  sx={{ display: 'flex', flexDirection: 'column', gap: '10px', paddingY: { xs: '25px', sm: '50px' }, }}>
 
-                <Typography variant="h2"
-                            sx={{ color: 'var(--main-color)', fontWeight: 600, fontSize: { xs: '28px', sm: '34px' } }}>Преимущества
-                    платной патронажной службы:</Typography>
+                <Typography
+                    variant="h2"
+                    sx={{
+                        color: 'var(--main-color)',
+                        fontWeight: 500,
+                        fontSize: { xs: '28px', sm: '34px' },
+                        marginBottom: '20px',
+                    }}
+                >
+                    Преимущества платной патронажной службы:
+                </Typography>
 
                 <Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>

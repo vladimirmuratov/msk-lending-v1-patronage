@@ -1,7 +1,7 @@
 import {Box, IconButton, Typography, Link} from '@mui/material'
 import {links, phoneNumber} from '@/config'
 import MenuIcon from '@mui/icons-material/Menu'
-import {ContactBanner} from '@/components/ContactBanner'
+import {ContactBanner} from '@/components/navigation/ContactBanner'
 import {useCallback, useEffect, useRef, useState} from 'react'
 import {BaseLink} from '@/components/base/BaseLink'
 import SocialBlock from '@/components/SocialBlock'

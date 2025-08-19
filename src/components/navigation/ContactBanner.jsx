@@ -1,4 +1,8 @@
-import { Box, Link, Typography } from '@mui/material';
+import {
+    Box,
+    Link,
+    Typography
+} from '@mui/material';
 import { phoneNumber } from '@/config';
 
 export const ContactBanner = ({ isMobile = false }) => {
@@ -18,7 +22,7 @@ export const ContactBanner = ({ isMobile = false }) => {
         }}>
             <Typography sx={{ color: color, fontSize: { xs: 12, sm: 14, md: 16 } }}>г. Москва, Мичуринский пр-т , д.
                 6</Typography>
-            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+            <Box sx={{ display: isMobile ? 'none' : 'flex', alignItems: 'center' }}>
                 <Link
                     href={`tel:${phoneNumber}`}
                     sx={{
