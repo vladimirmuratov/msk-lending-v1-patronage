@@ -1,6 +1,4 @@
 import { Banner } from '@/components/Banner';
-import { AboutBlock } from '@/components/AboutBlock';
-import { WhyWeBlock } from '@/components/WhyWeBlock';
 import { text1 } from '@/config';
 import { TextBlock } from '@/components/TextBlock';
 import { ContactsBlock } from '@/components/ContactsBlock';
@@ -13,12 +11,13 @@ export default function Home() {
         <main style={{ position: 'relative' }}>
             <Banner />
             {/*<CardsBlock />*/}
-            <PhoneBlock text="Патронаж на дому 24/7 — звоните прямо сейчас!" style={{paddingTop: { xs: '50px', sm: '100px' }}} />
+            <PhoneBlock text="Патронаж пожилых и лежачих больных. Звоните!"
+                        style={{ paddingTop: { xs: '50px', sm: '100px' } }} />
             <MainInfoBlock />
             <PhoneBlock text="Надёжный уход за близкими — узнайте условия по телефону" />
-            <AboutBlock />
-            <WhyWeBlock />
-            <PhoneBlock text="Патронаж пожилых и лежачих больных. Звоните!" />
+            {/*<AboutBlock />*/}
+            {/*<WhyWeBlock />*/}
+            {/*<PhoneBlock text="Патронаж пожилых и лежачих больных. Звоните!" />*/}
             {/*<WeRespondBlock />*/}
             {/*<WhatWeOfferBlock/>*/}
             {/*<DirectionsOfHospitalizationBlock />*/}
