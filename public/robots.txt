@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://patronage.mskdoctor.ru/sitemap.xml
+Sitemap: https://msk-patronage.vercel.app/sitemap.xml
