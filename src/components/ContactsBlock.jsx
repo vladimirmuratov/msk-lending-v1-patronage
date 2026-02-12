@@ -2,6 +2,7 @@ import { Box, Link, Typography } from '@mui/material';
 import { email, phoneNumber, phoneNumber2 } from '@/config';
 // import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
+import CallIcon from '@mui/icons-material/Call';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import SocialBlock from '@/components/SocialBlock';
 
@@ -35,7 +36,7 @@ export const ContactsBlock = () => {
                     </Box>*/}
 
                     <Box sx={{ display: 'flex', gap: '10px' }}>
-                        <LocalPhoneOutlinedIcon sx={{ color: 'var(--main-color)' }} />
+                        <CallIcon sx={{ color: 'var(--main-color)' }} />
                         <Box sx={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
                             <Link href={`tel:${phoneNumber}`}
                                   sx={{ fontSize: { xs: '14px', sm: '16px' } }}>{phoneNumber}</Link>
